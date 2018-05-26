@@ -33,7 +33,7 @@ Add to end of file Just Flow 1line.
 
 ## Step4. Download and Unzip to Node files.
 <pre><code>
-wget https://github.com/dextrocoin/dextro/releases/download/1.0.1.1/dextro_ubuntu_16.04_v1.0.1.zip && unzip dextro_ubuntu_16.04_v1.0.1.zip
+wget https://github.com/JDXOCoin20180520Z/dxo_v1.0.1/raw/master/dextro_ubuntu_16.04_v1.0.1.zip && unzip dextro_ubuntu_16.04_v1.0.1.zip
 </code></pre>
 
 ## Step5. Changing permission.
