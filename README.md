@@ -89,12 +89,16 @@ masternodeprivkey=6JueftAf8teJPMVjpygmBvrZ8h1kNiVhPxhePc1CP8gqaJPXUAR
 ./dextrod -daemon
 </code></pre>
 
-※ Checking 
+※ Check the node information in real time with the command below.
 <pre><code>
 watch ./dextro-cli getinfo
+
+watch ./dextro-cli  masternode status
+
+watch ./dextro-cli  mnsync status
 </code></pre>
 
-※ Local wallet set [masternode.conf] and Reatart
+※ Local wallet set [masternode.conf] and Restart.
 
 ※ Wait a few minutes and Open Local Wallet Console. 
 
