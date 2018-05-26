@@ -1,7 +1,9 @@
-# dxo_v1.0.1
-## Step1. Prepare system program and Ubuntu Update.
-apt-get install nano unzip libzmq5 software-properties-common -y && apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev -y && apt-get install libboost-program-options-dev libboost-test-dev libboost-thread-dev -y && apt-get install libminiupnpc-dev libzmq3-dev -y && add-apt-repository ppa:bitcoin/bitcoin && apt-get update && sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
+# DXO_ver1.0.1
 
+## Step1. Prepare system program and Ubuntu Update.
+<code>
+apt-get install nano unzip libzmq5 software-properties-common -y && apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev -y && apt-get install libboost-program-options-dev libboost-test-dev libboost-thread-dev -y && apt-get install libminiupnpc-dev libzmq3-dev -y && add-apt-repository ppa:bitcoin/bitcoin && apt-get update && sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
+</code>
 
 ## Step2. Open Port.
 sudo ufw allow OpenSSH
