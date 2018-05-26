@@ -1,4 +1,4 @@
-# DXO_ver1.0.1
+# DXO_ver1.0.1 VPS Setup Guide.(Author by DXO_Tacco)
 
 ## Step1. Prepare system program and Ubuntu Update.
 <pre><code>
@@ -25,7 +25,7 @@ sudo chown root:root /var/swap.img
 sudo nano /etc/fstab 
 </code></pre>
 
-# Add to end of file Just Flow 1line.
+Add to end of file Just Flow 1line.
 <pre><code>
 /var/swap.img none swap sw 0 0
 </code></pre>
@@ -95,8 +95,11 @@ watch ./dextro-cli getinfo
 </code></pre>
 
 ※ Local wallet set [masternode.conf] and Reatart
+
 ※ Wait a few minutes and Open Local Wallet Console. 
+
 ※ Run to MN Start Command.
+
 <pre><code>
 masternode start-alias [MASTERNODE_ALIAS]
 </code></pre>
