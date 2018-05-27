@@ -36,7 +36,7 @@ Add to end of file Just Flow 1line.
 wget https://github.com/JDXOCoin20180520Z/dxo_v1.0.1/raw/master/dextro_ubuntu_16.04_v1.0.1.zip && unzip dextro_ubuntu_16.04_v1.0.1.zip
 </code></pre>
 
-## Step5. Changing permission.
+## Step5. Change permission.
 <pre><code>
 cd ./dextro
 sudo chmod +x dextrod
