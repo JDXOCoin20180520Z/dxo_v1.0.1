@@ -78,7 +78,7 @@ externalip=182.65.15.65:39320
 masternodeprivkey=6JueftAf8teJPMVjpygmBvrZ8h1kNiVhPxhePc1CP8gqaJPXUAR
 </code></pre>
 
-## Step7. Run Daemon and Checking Block.
+## Step6. Run Daemon and Checking Block.
 <pre><code>
 ./dextrod -daemon
 </code></pre>
