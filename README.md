@@ -33,17 +33,11 @@ Add to end of file Just Flow 1line.
 
 ## Step4. Download and Unzip to Node files.
 <pre><code>
-wget https://github.com/JDXOCoin20180520Z/dxo_v1.0.1/raw/master/dextro_ubuntu_16.04_v1.0.1.zip && unzip dextro_ubuntu_16.04_v1.0.1.zip
+wget https://github.com/dextrocoin/dextro/releases/download/2.0.2.1/dextro-v2.0.2.1-ubuntu_16.tar.gz
+tar xvfz dextro-v2.0.2.1-ubuntu_16.tar.gz
 </code></pre>
 
-## Step5. Change permission.
-<pre><code>
-cd ./dextro
-sudo chmod +x dextrod
-sudo chmod +x dextro-cli 
-</code></pre>
-
-## Step6. Run Daemon and Set configuration.
+## Step5. Run Daemon and Set configuration.
 Run Deamon once and Stop. For generating configuration files.
 <pre><code>
 ./dextrod -daemon
